@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Float</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .main{
+            background-color: lightpink;
+            width: 90%;
+            margin: auto;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        .caja{
+            width: 500px;
+            height: 200px;
+            margin: 20px;
+            overflow: hidden;
+            
+        }
+        .img{
+            float: left;
+            width: auto;
+            text-align: center;
+        }
+
+        .text{
+            float: right;
+        }
+
+        /*Estilos para atículos*/
+        .article{
+            background-color: lightslategray;
+            width: 700px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .article h1{
+            text-align: center;
+            padding: 10px;
+
+    
+        }
+
+        .article img{
+            float: right;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="caja img">
+            <img src="https://loremflickr.com/320/240/brazil,rio" height="200">
+
+        </div>
+        <div>
+             <h1> Encabezado</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Beatae eius provident veniam nostrum? Cupiditate nulla atque eum 
+                corrupti minima nam distinctio
+                possimus, asperiores perspiciatis illo mollitia dolorem dolore officia? Ratione.</p>
+        </div>
+
+    </main>
+
+    <article class="article">
+        <h1> Encabezado del articulo </h1>
+       <img src="https://loremflickr.com/320/240/brazil,rio" height="300">
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nihil 
+           voluptatem aspernatur laudantium fugit quisquam possimus voluptatibus, ipsa 
+           odio optio in ipsam vel, deserunt soluta, consequuntur reiciendis sequi
+           similique nulla.</p> 
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Obcaecati quod nam quae nemo voluptatibus molestias, tenetur enim totam, 
+           dignissimos ratione harum corporis corrupti perferendis quaerat atque,
+           eveniet odio in. Architecto.</p> 
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, impedit sed accusamus quod sint, dolorem nobis pariatur
+           ullam, adipisci minus aperiam. Aliquid eos sit architecto earum, laudantium dolores 
+            corporis quis?</p> 
+
+    </article>
+    
+</body>
+</html>

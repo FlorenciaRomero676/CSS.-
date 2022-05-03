@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOTONES</title>
+    <style>
+        body{
+            background-color: lightgrey;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        div{
+            margin: 20px 2px;
+        }
+
+        .btn{
+            background-color: lightskyblue;
+            color: black;
+            font-size: 20px;
+            padding: 15px 20px;
+            margin: 0px 10px;
+            border-style: none;
+
+            
+
+        }
+
+        .btn:hover{
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        /* Tamaños*/
+        .small{
+            font-size: 12px;
+            padding: 10px 15px;
+        }
+
+        .medium{
+            font-size: 16px;
+            padding: 15px 20px;
+        }
+
+        .big{
+            font-size: 30px;
+            padding: 25px 30px;
+        }
+
+        /*Colores*/
+        .verde{
+            background-color: green;
+        }
+        .rojo{background-color: rgb(243, 62, 62);}
+        .naranja{background-color: orange;}
+
+        /* Efectos*/
+        .boder-radius{ border-radius: 30px;}
+
+    </style>
+</head>
+<body>
+    <div>
+        <button class="btn"> Boton estandar</button>
+    </div>
+    
+    <div>
+        <button class="btn small verde"> Boton small</button>
+        <button class="btn medium rojo"> Boton medium</button>
+        <button class="btn big naranja"> Boton big  </button>
+    </div>
+
+    <div>
+        <button class="btn small verde boder-radius"> Boton small</button>
+        <button class="btn medium rojo boder-radius"> Boton medium</button>
+        <button class="btn big naranja boder-radius"> Boton big  </button>
+    </div>
+</body>
+</html>
